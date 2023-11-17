@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/.idea/Chua November 17 2023.iml" filepath="$PROJECT_DIR$/.idea/Chua November 17 2023.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Food Ordering System/Food Ordering System.iml" filepath="$PROJECT_DIR$/Food Ordering System/Food Ordering System.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LeapYear/LeapYear.iml" filepath="$PROJECT_DIR$/LeapYear/LeapYear.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" filepath="$PROJECT_DIR$/Simple Calculator/Simple Calculator.iml" />
+    </modules>
+  </component>
+</project>

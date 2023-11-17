@@ -1,0 +1,136 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<form xmlns="http://www.intellij.com/uidesigner/form/" version="1" bind-to-class="FoodOrderingSystem">
+  <grid id="27dc6" binding="panel1" default-binding="true" layout-manager="GridLayoutManager" row-count="11" column-count="3" same-size-horizontally="false" same-size-vertically="false" hgap="-1" vgap="-1">
+    <margin top="0" left="0" bottom="0" right="0"/>
+    <constraints>
+      <xy x="20" y="20" width="500" height="415"/>
+    </constraints>
+    <properties/>
+    <border type="none"/>
+    <children>
+      <vspacer id="1208f">
+        <constraints>
+          <grid row="0" column="1" row-span="10" col-span="1" vsize-policy="6" hsize-policy="1" anchor="0" fill="2" indent="0" use-parent-layout="false"/>
+        </constraints>
+      </vspacer>
+      <component id="228f3" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="0" column="2" row-span="4" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="DISCOUNT"/>
+        </properties>
+      </component>
+      <component id="e6cd7" class="javax.swing.JCheckBox" binding="BURGERCheckBox" default-binding="true">
+        <constraints>
+          <grid row="3" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="BURGER"/>
+        </properties>
+      </component>
+      <component id="5ec34" class="javax.swing.JCheckBox" binding="PIZZACheckBox" default-binding="true">
+        <constraints>
+          <grid row="2" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="PIZZA"/>
+        </properties>
+      </component>
+      <component id="e9012" class="javax.swing.JRadioButton" binding="PEEPTEENOFF">
+        <constraints>
+          <grid row="7" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="15% OFF!"/>
+        </properties>
+      </component>
+      <component id="3f9d8" class="javax.swing.JRadioButton" binding="TENOFF">
+        <constraints>
+          <grid row="6" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="10% OFF!"/>
+        </properties>
+      </component>
+      <component id="50bd7" class="javax.swing.JLabel">
+        <constraints>
+          <grid row="1" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="0" anchor="0" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FOODS"/>
+        </properties>
+      </component>
+      <component id="3bae3" class="javax.swing.JButton" binding="ORDER">
+        <constraints>
+          <grid row="10" column="0" row-span="1" col-span="3" vsize-policy="0" hsize-policy="3" anchor="0" fill="1" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="ORDER NOW!"/>
+        </properties>
+      </component>
+      <component id="d0b29" class="javax.swing.JRadioButton" binding="PAYBOFF">
+        <constraints>
+          <grid row="5" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="5% OFF!"/>
+        </properties>
+      </component>
+      <component id="2ea76" class="javax.swing.JRadioButton" binding="NONE">
+        <constraints>
+          <grid row="4" column="2" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <selected value="true"/>
+          <text value="NONE"/>
+        </properties>
+      </component>
+      <component id="f5820" class="javax.swing.JCheckBox" binding="FRIESCheckBox">
+        <constraints>
+          <grid row="4" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="FRIES"/>
+        </properties>
+      </component>
+      <component id="9289e" class="javax.swing.JCheckBox" binding="SOFTDRINKCheckBox" default-binding="true">
+        <constraints>
+          <grid row="5" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SOFT DRINK"/>
+        </properties>
+      </component>
+      <component id="c6106" class="javax.swing.JCheckBox" binding="TEACheckBox">
+        <constraints>
+          <grid row="6" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="TEA"/>
+        </properties>
+      </component>
+      <component id="10406" class="javax.swing.JCheckBox" binding="SUNDAECheckBox" default-binding="true">
+        <constraints>
+          <grid row="7" column="0" row-span="1" col-span="1" vsize-policy="0" hsize-policy="3" anchor="8" fill="0" indent="0" use-parent-layout="false"/>
+        </constraints>
+        <properties>
+          <text value="SUNDAE"/>
+        </properties>
+      </component>
+    </children>
+  </grid>
+  <buttonGroups>
+    <group name="DISUCOUNT">
+      <member id="6f56e"/>
+      <member id="6f56e"/>
+      <member id="e9012"/>
+      <member id="3f9d8"/>
+      <member id="d0b29"/>
+      <member id="e9012"/>
+      <member id="3f9d8"/>
+      <member id="d0b29"/>
+      <member id="2ea76"/>
+    </group>
+  </buttonGroups>
+</form>
